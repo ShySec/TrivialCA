@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e -u
-if [ ${#@} -lt 1 ]; then
+if [ ${#@} -lt 2 ]; then
   echo "usage: $0 <ca> <server>"
   exit
 fi
